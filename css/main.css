@@ -80,6 +80,17 @@ span {
 }
 .nav-link.active {
 	color: var(--accent-color);
+	position: relative;
+}
+.active::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: var(--accent-color);
+	border-radius: 2px;
+	position: absolute;
+	bottom: 0;
 }
 .con-link {
 	display: flex;
