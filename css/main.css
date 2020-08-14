@@ -174,14 +174,13 @@ span {
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.portfolio-item:hover .portfolio-overlay,
+.portfolio-item a:focus .portfolio-overlay {
 	height: 100%;
 	opacity: 1;
 	transform: translate(0%, 0%);
-	/*transform: translateY(0);*/
-	/*transition-duration: 2500ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
+
 .portfolio-image {
 	position: relative;
 	overflow: hidden;
