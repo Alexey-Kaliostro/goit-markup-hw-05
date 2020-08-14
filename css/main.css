@@ -162,6 +162,7 @@ span {
 	position: absolute;
 
 	bottom: 0;
+
 	left: 0;
 	right: 0;
 	width: 100%;
@@ -169,6 +170,8 @@ span {
 	overflow: hidden;
 	transform: translate(0%, 100%);
 	/*transform: translateY(50%);*/
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -176,8 +179,8 @@ span {
 	opacity: 1;
 	transform: translate(0%, 0%);
 	/*transform: translateY(0);*/
-	transition-duration: 2500ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	/*transition-duration: 2500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 .portfolio-image {
 	position: relative;
