@@ -203,6 +203,9 @@ h2 {
 	margin-bottom: 0;
 	margin-bottom: 50px;
 }
+.inventions-item {
+	position: relative;
+}
 h3.overlay {
 	font-weight: bold;
 	font-size: 14px;
@@ -212,6 +215,9 @@ h3.overlay {
 	text-transform: uppercase;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	color: black;
+	position: absolute;
+	bottom: 0;
 }
 .team h3 {
 	font-weight: 500;
