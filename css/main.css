@@ -96,13 +96,24 @@ span {
 .nav-link:focus,
 .con-link:hover,
 .con-link:focus {
+	/*Pushed*/
 	color: var(--accent-color);
+	/*not pushed*/
 	/*transition-duration: 2500ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 header:hover .page-nav .nav-link {
 	/*color: var(--accent-color);*/
-	transition-duration: 2500ms;
+	/*pushed*/
+	/*transition-duration: 2500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
+}
+.page-nav .nav-link {
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-contacts .con-link {
+	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
